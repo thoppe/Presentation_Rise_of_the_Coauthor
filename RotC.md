@@ -24,13 +24,24 @@ Is science really changing?
 PDB submissions, NIH budgets, Number of postdoctoral/doctoral bio-medical students, Number of international collaborations, ...
 
 ====*
-IMG: PDB submissions
+## Submissions to PDB
+
+!(img/EM_pdb.jpg) <<height:250px>>
+!(img/NMR_pdb.jpg) <<height:250px>>
+
+Electron Microscopy, NMR
 
 ====*
-IMG: Budget of NIH
+## NIH Funding
+
+!(img/NIH_funding1.png) <<height:280px>>
+!(img/NIH_funding2.png) <<height:280px>>
+
+[source](http://www.americanprogress.org/issues/economy/report/2014/03/25/86369/erosion-of-funding-for-the-national-institutes-of-health-threatens-u-s-leadership-in-biomedical-research/)
  
 ====*
-IMG: Number of postdoctoral/doctoral bio-medical students
+## Growth of Temporaries
+!(img/postdoc_growth.jpg) <<height:500px>>
 
 ====*
 IMG: Number of international collaborations
@@ -64,7 +75,8 @@ Mars Rover (link)
 Etc (link)
 
 ====
-IMG: Average number of Coauthors
+## Coauthorship is on the rise
+!(img/total_coauthor.png) <<height:600px>>
 
 ====*
 ## Extrapolate?
@@ -72,16 +84,52 @@ IMG: Table
 
 ====*
 ## Correlated to growth?
-IMG: Correlations
+!(img/growth_plots.png) <<height:600px>>
 
 ====
-# Title length
-IMG: Title length
+
+## Single Authorship
+!(img/single_author.png) <<height:600px>>
 
 ====
-# Single Authorship
-IMG: Single authors
+## Lexicographical analysis
 
+Look for _significant_ keywords in the titles
+
++ Remove *stop words*:
+
+e.g. [the,first,has]
+
++ Apply *stemming*, *lemmatization*:
+
+(acids, acidic) $\rightarrow$ acid
+
+Identify a canonical representative set for related words
+
+====*
+
+NATURE 1935
+    spectrum        4.24
+    structure       3.15
+    neutron         3.01
+    radioactivity   2.74
+
+NATURE 1951
+    acid            7.32
+    chromatography  2.76
+    structure       2.68
+    cell            2.20
+
+NATURE 2013
+    cell            12.59
+    structure       5.87
+    protein         5.13
+    human           5.01
+
+====
+
+## Verbosity Saturates
+!(img/title_length.png) <<height:600px>>
 
 ====
 # Reasons?

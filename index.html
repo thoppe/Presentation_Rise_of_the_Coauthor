@@ -65,13 +65,26 @@ Is science really changing?<div class="fragment"><br><h1><em>YES!</em></h1></p>
 PDB submissions, NIH budgets, Number of postdoctoral/doctoral bio-medical students, Number of international collaborations, ...<br></div></p>
 </section><section class="vertical-slide" >
 <p>
-IMG: PDB submissions</p>
+<h2>Submissions to PDB</h2></p>
+<br>
+<img class="" src="img/EM_pdb.jpg" height="250px">
+<img class="" src="img/NMR_pdb.jpg" height="250px">
+<br>
+<p>
+Electron Microscopy, NMR</p>
 </section><section class="vertical-slide" >
 <p>
-IMG: Budget of NIH</p>
+<h2>NIH Funding</h2></p>
+<br>
+<img class="" src="img/NIH_funding1.png" height="280px">
+<img class="" src="img/NIH_funding2.png" height="280px">
+<br>
+<p>
+<a href="http://www.americanprogress.org/issues/economy/report/2014/03/25/86369/erosion-of-funding-for-the-national-institutes-of-health-threatens-u-s-leadership-in-biomedical-research/">source</a></p>
 </section><section class="vertical-slide" >
 <p>
-IMG: Number of postdoctoral/doctoral bio-medical students</p>
+<h2>Growth of Temporaries</h2></p>
+<img class="" src="img/postdoc_growth.jpg" height="500px">
 </section><section class="vertical-slide" >
 <p>
 IMG: Number of international collaborations</p>
@@ -111,23 +124,82 @@ Genome (link)<br>Mars Rover (link)<br>Etc (link)</p>
 </section><section class="vertical-stack">
 <section class="vertical-slide" >
 <p>
-IMG: Average number of Coauthors</p>
+<h2>Coauthorship is on the rise</h2></p>
+<img class="" src="img/total_coauthor.png" height="600px">
 </section><section class="vertical-slide" >
 <p>
 <h2>Extrapolate?</h2>IMG: Table</p>
 </section><section class="vertical-slide" >
 <p>
-<h2>Correlated to growth?</h2>IMG: Correlations</p>
+<h2>Correlated to growth?</h2></p>
+<img class="" src="img/growth_plots.png" height="600px">
 </section>
 </section><section class="vertical-stack">
 <section class="vertical-slide" >
 <p>
-<h1>Title length</h1>IMG: Title length</p>
+<h2>Single Authorship</h2></p>
+<img class="" src="img/single_author.png" height="600px">
 </section>
 </section><section class="vertical-stack">
 <section class="vertical-slide" >
 <p>
-<h1>Single Authorship</h1>IMG: Single authors</p>
+<h2>Lexicographical analysis</h2></p>
+<br>
+<p>
+Look for <em>significant</em> keywords in the titles</p>
+<br>
+<ul><li>Remove <strong>stop words</strong>:</li></ul>
+<br>
+<p>
+e.g. [the,first,has]</p>
+<br>
+<ul><li>Apply <strong>stemming</strong>, <strong>lemmatization</strong>:</li></ul>
+<br>
+<p>
+(acids, acidic) <svg class="latexSVG" height="5.203125px" version="1.2" viewBox="0 0 8.859375 5.203125" width="8.859375px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <g>
+   <symbol id="equation_PLZTM_0" overflow="visible">
+    <path d="M 8.3125 -2.296875 C 7.765625 -1.875 7.5 -1.46875 7.421875 -1.328125 C 6.96875 -0.640625 6.890625 -0.015625 6.890625 -0.015625 C 6.890625 0.109375 7.015625 0.109375 7.09375 0.109375 C 7.25 0.109375 7.265625 0.09375 7.3125 -0.09375 C 7.53125 -1.0625 8.125 -1.90625 9.25 -2.359375 C 9.375 -2.40625 9.40625 -2.421875 9.40625 -2.5 C 9.40625 -2.5625 9.34375 -2.59375 9.328125 -2.609375 C 8.875 -2.765625 7.671875 -3.265625 7.296875 -4.9375 C 7.265625 -5.0625 7.25 -5.09375 7.09375 -5.09375 C 7.015625 -5.09375 6.890625 -5.09375 6.890625 -4.96875 C 6.890625 -4.953125 6.984375 -4.328125 7.390625 -3.65625 C 7.59375 -3.359375 7.890625 -3.015625 8.3125 -2.6875 L 0.90625 -2.6875 C 0.734375 -2.6875 0.546875 -2.6875 0.546875 -2.5 C 0.546875 -2.296875 0.734375 -2.296875 0.90625 -2.296875 Z M 8.3125 -2.296875 " style="stroke:none;"/>
+   </symbol>
+  </g>
+ </defs>
+ <g id="surface1">
+  <g>
+   <use x="-0.546875" xlink:href="#equation_PLZTM_0" y="5.09375"/>
+  </g>
+ </g>
+</svg> acid</p>
+<br>
+<p>
+Identify a canonical representative set for related words</p>
+</section><section class="vertical-slide" >
+<p>
+NATURE 1935</p>
+<pre><code class=python>spectrum        4.24
+structure       3.15
+neutron         3.01
+radioactivity   2.74</code></pre>
+<br>
+<p>
+NATURE 1951</p>
+<pre><code class=python>acid            7.32
+chromatography  2.76
+structure       2.68
+cell            2.20</code></pre>
+<br>
+<p>
+NATURE 2013</p>
+<pre><code class=python>cell            12.59
+structure       5.87
+protein         5.13
+human           5.01</code></pre>
+</section>
+</section><section class="vertical-stack">
+<section class="vertical-slide" >
+<p>
+<h2>Verbosity Saturates</h2></p>
+<img class="" src="img/title_length.png" height="600px">
 </section>
 </section><section class="vertical-stack">
 <section class="vertical-slide" >

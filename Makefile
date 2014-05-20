@@ -10,7 +10,7 @@ all:
 	$(python_exec) $(md2reveal_exec) $(target) --output index.html $(args)
 
 edit:
-	gedit $(target) &
+	emacs $(target) &
 
 commit:
 	@-make push

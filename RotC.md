@@ -7,21 +7,21 @@
 
 [(deck source)](https://github.com/thoppe/Rise-of-the-Coauthor)
 
+====*
+
+Motivation:
+Author count histogram for a single issue of JBC
+!(img/minton_coauthor.jpg)
+
 ====
 
-Motivation
-
-IMG: Minton's Graph
-
-====
-
-Is science really changing?
+### Is science really changing?
 
 ====+
 <br>
 # _YES!_
 
-PDB submissions, NIH budgets, Number of postdoctoral/doctoral bio-medical students, Number of international collaborations, ...
+PDB submissions, NIH budgets, number of postdoctoral/doctoral students, number of international collaborations, ...
 
 ====*
 ## Submissions to PDB
@@ -44,7 +44,8 @@ Electron Microscopy, NMR
 !(img/postdoc_growth.jpg) <<height:500px>>
 
 ====*
-IMG: Number of international collaborations
+## International groups
+!(img/international_trend.gif) <<height:600px>>
 
 ====
 

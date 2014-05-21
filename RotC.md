@@ -98,9 +98,12 @@ Genome (link)
 Mars Rover (link)
 Etc (link)
 
-====
-## Coauthorship is on the rise
-!(img/total_coauthor.png) <<height:600px>>
+
+====* !(img/seq/total1.png 70% none)
+====* !(img/seq/total2.png 70% none)
+====* !(img/seq/total3.png 70% none)
+====* !(img/seq/total4.png 70% none)
+====* !(img/seq/total5.png 70% none)
 
 ====*
 ## Extrapolate?

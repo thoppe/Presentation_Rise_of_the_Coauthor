@@ -2,6 +2,7 @@
 
 *~
 \#*
+*.bak
 
 # Render files
 .render_cache/*

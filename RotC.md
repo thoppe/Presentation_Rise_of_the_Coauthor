@@ -168,7 +168,10 @@ Shortest title:
 ====*
 
 ## Verbosity Saturates
-!(img/title_length.png) <<height:600px>>
+
+====* !(img/seq/title1.png 70% fade)
+====* !(img/seq/title2.png 70% fade)
+====* !(img/seq/title3.png 70% fade)
 
 ====
 # Reasons?

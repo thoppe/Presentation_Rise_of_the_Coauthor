@@ -21,15 +21,7 @@ Author count histogram for a single issue of JBC
 <br>
 # _YES!_
 
-PDB submissions, NIH budgets, number of postdoctoral/doctoral students, number of international collaborations, ...
-
-====*
-## Submissions to PDB
-
-!(img/EM_pdb.jpg) <<height:250px>>
-!(img/NMR_pdb.jpg) <<height:250px>>
-
-Electron Microscopy, NMR
+NIH budgets, PDB submissions,  number of postdoctoral/doctoral students, number of international collaborations, ...
 
 ====*
 ## NIH Funding
@@ -37,31 +29,62 @@ Electron Microscopy, NMR
 !(img/NIH_funding1.png) <<height:280px>>
 !(img/NIH_funding2.png) <<height:280px>>
 
-[source](http://www.americanprogress.org/issues/economy/report/2014/03/25/86369/erosion-of-funding-for-the-national-institutes-of-health-threatens-u-s-leadership-in-biomedical-research/)
+[Source: (CAP) Erosion of Funding for the NIH ...](http://www.americanprogress.org/issues/economy/report/2014/03/25/86369/erosion-of-funding-for-the-national-institutes-of-health-threatens-u-s-leadership-in-biomedical-research/)
  
 ====*
-## Growth of Temporaries
-!(img/postdoc_growth.jpg) <<height:500px>>
+## Growth of Data
+Submissions to PDB
+
+!(img/EM_pdb.jpg) <<height:250px>>
+!(img/NMR_pdb.jpg) <<height:250px>>
+[Electron Microscopy](http://www.nature.com/nsmb/journal/v19/n12/full/nsmb.2426.html?WT.ec_id=NSMB-201212), [NMR](http://www.wwpdb.org/news/news_2013.html)
 
 ====*
+
+## Growth of Temporaries
+!(img/postdoc_growth.jpg)  <<height:400px>>
+
+[Source: (NIH) Office of Extramural Research](http://www.americanprogress.org/issues/economy/report/2014/03/25/86369/erosion-of-funding-for-the-national-institutes-of-health-threatens-u-s-leadership-in-biomedical-research)
+
+
+====*
+
 ## International groups
 !(img/international_trend.gif) <<height:600px>>
 
 ====
 
-Purpose of this talk is to examine the perspective on journal authorship and any other interesting facts from front-end of a journal
+## Editorial
+
+Purpose of this talk is to examine the trends of 
+
+*journal article authorship*
+
+and any other interesting facts from the front-end of a journal.
 
 ====*
 
 ## Methods
 
-Journal studied: Science, Nature, Cell, JCI, PNAS, JACS, JBC
+Journal studied: Science, Nature, Cell, JCI, PNAS, JACS, JBC.
 
-For every journal, every table of contents was downloaded. This gives titles and authorship information for every paper.
+For every journal, every table of contents was downloaded. 
+This gives titles and authorship information for every paper.
 
 Filtered for editorials, corrections, errata, book reviews, ...
 
 ====*
+
+## Limitations
+
+Why not examine the _abstracts_, or the _articles_ themselves?
+
++ Legal issues (c.f. [Aaron Swartz](http://en.wikipedia.org/wiki/United_States_v._Aaron_Swartz))
++ Time/complexity issues
++ Publicly available data
+
+
+====
 
 ## Consortia
 
@@ -81,13 +104,13 @@ Etc (link)
 
 ====*
 ## Extrapolate?
-IMG: Table
+!(img/ProjectionTable.png)
 
 ====*
 ## Correlated to growth?
 !(img/growth_plots.png) <<height:600px>>
 
-====
+====*
 
 ## Single Authorship
 !(img/single_author.png) <<height:600px>>
@@ -128,6 +151,15 @@ NATURE 2013
     human           5.01
 
 ====
+
+## Title length
+
+Longest title:
+
+Shortest title:
+
+
+====*
 
 ## Verbosity Saturates
 !(img/title_length.png) <<height:600px>>

@@ -51,45 +51,7 @@
 <p>
 Motivation:<br>Author count histogram for a single issue of JBC</p>
 <img class="" src="img/minton_coauthor.jpg" >
-</section>
-</section><section class="vertical-stack">
-<section class="vertical-slide"  data-background-transition="none">
-<p>
-<h3>Is science really changing?</h3><div class="fragment"><br><h1><em>YES!</em></h1></p>
-<br>
-<p>
-NIH budgets, PDB submissions, number of postdoctoral/doctoral students, number of international collaborations, ...<br></div></p>
 </section><section class="vertical-slide"  data-background-transition="none">
-<p>
-<h2>NIH Funding</h2></p>
-<br>
-<img class="" src="img/NIH_funding1.png" height="280px">
-<img class="" src="img/NIH_funding2.png" height="280px">
-<br>
-<p>
-<a href="http://www.americanprogress.org/issues/economy/report/2014/03/25/86369/erosion-of-funding-for-the-national-institutes-of-health-threatens-u-s-leadership-in-biomedical-research/">Source: (CAP) Erosion of Funding for the NIH ...</a></p>
-</section><section class="vertical-slide"  data-background-transition="none">
-<p>
-<h2>Growth of Data</h2>Submissions to PDB</p>
-<br>
-<img class="" src="img/EM_pdb.jpg" height="250px">
-<img class="" src="img/NMR_pdb.jpg" height="250px">
-<p>
-<a href="http://www.nature.com/nsmb/journal/v19/n12/full/nsmb.2426.html?WT.ec_id=NSMB-201212">Electron Microscopy</a>, <a href="http://www.wwpdb.org/news/news_2013.html">NMR</a></p>
-</section><section class="vertical-slide"  data-background-transition="none">
-<p>
-<h2>Growth of Temporaries</h2></p>
-<img class="" src="img/postdoc_growth.jpg" height="400px">
-<br>
-<p>
-<a href="http://www.americanprogress.org/issues/economy/report/2014/03/25/86369/erosion-of-funding-for-the-national-institutes-of-health-threatens-u-s-leadership-in-biomedical-research">Source: (NIH) Office of Extramural Research</a></p>
-</section><section class="vertical-slide"  data-background-transition="none">
-<p>
-<h2>International groups</h2></p>
-<img class="" src="img/international_trend.gif" height="600px">
-</section>
-</section><section class="vertical-stack">
-<section class="vertical-slide"  data-background-transition="none">
 <p>
 <h2>Editorial</h2></p>
 <br>
@@ -100,29 +62,35 @@ Purpose of this talk is to examine the trends of</p>
 <strong>journal article authorship</strong></p>
 <br>
 <p>
-and any other interesting facts from the front-end of a journal.</p>
+and other interesting facts from the front-end of a journal.</p>
 </section><section class="vertical-slide"  data-background-transition="none">
 <p>
 <h2>Methods</h2></p>
 <br>
 <p>
-Journal studied: Science, Nature, Cell, JCI, PNAS, JACS, JBC.</p>
+<strong>JCI</strong> (J. Clinical Investigations), <strong>PNAS</strong> (Proc. National Academy of Sciences), <strong>JACS</strong> (J. American Chemical Society), <strong>JBC</strong> (J .Biological Chemistry), <strong>Science</strong>, <strong>Nature</strong>, <strong>Cell</strong>.</p>
 <br>
 <p>
 For every journal, every table of contents was downloaded.<br>This gives titles and authorship information for every paper.</p>
 <br>
 <p>
-Filtered for editorials, corrections, errata, book reviews, ...</p>
+Filtered for editorials, corrections, errata, book reviews, ...<br>Approximately 2.4K TOC, 100K papers for older journals.</p>
 </section><section class="vertical-slide"  data-background-transition="none">
 <p>
 <h2>Limitations</h2></p>
 <br>
 <p>
-Why not examine the <em>abstracts</em>, or the <em>articles</em> themselves?</p>
+Why not examine the <em>abstracts</em>, or the <em>articles</em> themselves?<div class="fragment"><br></p>
 <br>
-<ul><li>Legal issues (c.f. <a href="http://en.wikipedia.org/wiki/United_States_v._Aaron_Swartz">Aaron Swartz</a>)</li>
-<li>Time/complexity issues</li>
-<li>Publicly available data</li></ul>
+<ul><li>Time/complexity issues</li></ul>
+<p>
+</div><div class="fragment"></p>
+<ul><li>Legal issues (c.f. <a href="http://en.wikipedia.org/wiki/United_States_v._Aaron_Swartz">Aaron Swartz</a>)</li></ul>
+<p>
+</div><div class="fragment"></p>
+<ul><li>Publicly available data</li></ul>
+<p>
+</div></p>
 </section>
 </section><section class="vertical-stack">
 <section class="vertical-slide"  data-background-transition="none">
@@ -163,7 +131,7 @@ Genome (link)<br>Mars Rover (link)<br>Etc (link)</p>
 <h2>Single Authorship</h2></p>
 <br>
 <p>
-<em>a prori</em> not the same trend as mean authorship...</p>
+<em>a priori</em> not the same trend as mean authorship...</p>
 </section><section class="vertical-slide"  data-background="img/seq/single1.png" data-background-transition="fade" data-background-size="70%">
 <br>
 </section><section class="vertical-slide"  data-background="img/seq/single2.png" data-background-transition="fade" data-background-size="70%">
@@ -204,19 +172,17 @@ e.g. [the,first,has]</p>
 Identify a canonical representative set for related words</p>
 </section><section class="vertical-slide"  data-background-transition="fade" data-background-size="70%">
 <p>
-NATURE 1935</p>
+<h2>Top keywords in an era</h2>NATURE 1935</p>
 <pre><code class=python>spectrum        4.24
 structure       3.15
 neutron         3.01
 radioactivity   2.74</code></pre>
-<br>
 <p>
 NATURE 1951</p>
 <pre><code class=python>acid            7.32
 chromatography  2.76
 structure       2.68
 cell            2.20</code></pre>
-<br>
 <p>
 NATURE 2013</p>
 <pre><code class=python>cell            12.59
@@ -237,13 +203,48 @@ Shortest title:</p>
 </section><section class="vertical-slide"  data-background-transition="fade" data-background-size="70%">
 <p>
 <h2>Verbosity Saturates</h2></p>
-<img class="" src="img/title_length.png" height="600px">
 </section><section class="vertical-slide"  data-background="img/seq/title1.png" data-background-transition="fade" data-background-size="70%">
 <br>
 </section><section class="vertical-slide"  data-background="img/seq/title2.png" data-background-transition="fade" data-background-size="70%">
 <br>
 </section><section class="vertical-slide"  data-background="img/seq/title3.png" data-background-transition="fade" data-background-size="70%">
 <br>
+</section>
+</section><section class="vertical-stack">
+<section class="vertical-slide"  data-background-transition="fade" data-background-size="70%">
+<p>
+<h3>Is science really changing?</h3><div class="fragment"><br><h1><em>YES!</em></h1></p>
+<br>
+<p>
+NIH budgets, PDB submissions, number of postdoctoral/doctoral students, number of international collaborations, ...<br></div></p>
+</section><section class="vertical-slide"  data-background-transition="fade" data-background-size="70%">
+<p>
+<h2>NIH Funding</h2></p>
+<br>
+<img class="" src="img/NIH_funding1.png" height="280px">
+<img class="" src="img/NIH_funding2.png" height="280px">
+<br>
+<p>
+<a href="http://www.americanprogress.org/issues/economy/report/2014/03/25/86369/erosion-of-funding-for-the-national-institutes-of-health-threatens-u-s-leadership-in-biomedical-research/">Source: (CAP) Erosion of Funding for the NIH ...</a></p>
+</section><section class="vertical-slide"  data-background-transition="fade" data-background-size="70%">
+<p>
+<h2>Growth of Data</h2>Submissions to PDB</p>
+<br>
+<img class="" src="img/EM_pdb.jpg" height="250px">
+<img class="" src="img/NMR_pdb.jpg" height="250px">
+<p>
+<a href="http://www.nature.com/nsmb/journal/v19/n12/full/nsmb.2426.html?WT.ec_id=NSMB-201212">Electron Microscopy</a>, <a href="http://www.wwpdb.org/news/news_2013.html">NMR</a></p>
+</section><section class="vertical-slide"  data-background-transition="fade" data-background-size="70%">
+<p>
+<h2>Growth of Temporaries</h2></p>
+<img class="" src="img/postdoc_growth.jpg" height="400px">
+<br>
+<p>
+<a href="http://www.americanprogress.org/issues/economy/report/2014/03/25/86369/erosion-of-funding-for-the-national-institutes-of-health-threatens-u-s-leadership-in-biomedical-research">Source: (NIH) Office of Extramural Research</a></p>
+</section><section class="vertical-slide"  data-background-transition="fade" data-background-size="70%">
+<p>
+<h2>International groups</h2></p>
+<img class="" src="img/international_trend.gif" height="600px">
 </section>
 </section><section class="vertical-stack">
 <section class="vertical-slide"  data-background-transition="fade" data-background-size="70%">

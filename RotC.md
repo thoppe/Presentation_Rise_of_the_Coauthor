@@ -13,6 +13,136 @@ Motivation:
 Author count histogram for a single issue of JBC
 !(img/minton_coauthor.jpg)
 
+====*
+
+## Editorial
+
+Purpose of this talk is to examine the trends of 
+
+*journal article authorship*
+
+and other interesting facts from the front-end of a journal.
+
+====*
+
+## Methods
+
+*JCI* (J. Clinical Investigations), *PNAS* (Proc. National Academy of Sciences), *JACS* (J. American Chemical Society), *JBC* (J .Biological Chemistry), *Science*, *Nature*, *Cell*.
+
+For every journal, every table of contents was downloaded.
+This gives titles and authorship information for every paper.
+
+Filtered for editorials, corrections, errata, book reviews, ...
+Approximately 2.4K TOC, 100K papers for older journals.
+
+====*
+
+## Limitations
+
+Why not examine the _abstracts_, or the _articles_ themselves?
+
+====+
+<br>
+
++ Time/complexity issues
+
+====+
+
++ Legal issues (c.f. [Aaron Swartz](http://en.wikipedia.org/wiki/United_States_v._Aaron_Swartz))
+
+====+
+
++ Publicly available data
+
+
+====
+
+## Consortia
+
+LARGE project collaborations
+
+Removed from study
+
+Examples:
+
+Genome (link)
+Mars Rover (link)
+Etc (link)
+
+====* !(img/seq/total1.png 70% fade)
+====* !(img/seq/total2.png 70% fade)
+====* !(img/seq/total3.png 70% fade)
+====* !(img/seq/total4.png 70% fade)
+====* !(img/seq/total5.png 70% fade)
+
+====*
+## Extrapolate?
+!(img/ProjectionTable.png)
+
+====*
+## Correlated to growth?
+!(img/growth_plots.png) <<height:600px>>
+
+====*
+
+## Single Authorship
+
+_a priori_ not the same trend as mean authorship...
+
+====* !(img/seq/single1.png 70% fade)
+====* !(img/seq/single2.png 70% fade)
+
+====
+## Lexicographical analysis
+
+Look for _significant_ keywords in the titles
+
++ Remove *stop words*:
+
+e.g. [the,first,has]
+
++ Apply *stemming*, *lemmatization*:
+
+(acids, acidic) $\rightarrow$ acid
+
+Identify a canonical representative set for related words
+
+====*
+
+## Top keywords in an era
+NATURE 1935
+    spectrum        4.24
+    structure       3.15
+    neutron         3.01
+    radioactivity   2.74
+NATURE 1951
+    acid            7.32
+    chromatography  2.76
+    structure       2.68
+    cell            2.20
+NATURE 2013
+    cell            12.59
+    structure       5.87
+    protein         5.13
+    human           5.01
+
+====
+
+## Title length
+
+Longest title:
+
+Shortest title:
+
+
+====*
+
+## Verbosity Saturates
+
+====* !(img/seq/title1.png 70% fade)
+====* !(img/seq/title2.png 70% fade)
+====* !(img/seq/title3.png 70% fade)
+
 ====
 
 ### Is science really changing?
@@ -54,126 +184,8 @@ Submissions to PDB
 
 ====
 
-## Editorial
-
-Purpose of this talk is to examine the trends of 
-
-*journal article authorship*
-
-and any other interesting facts from the front-end of a journal.
-
-====*
-
-## Methods
-
-Journal studied: Science, Nature, Cell, JCI, PNAS, JACS, JBC.
-
-For every journal, every table of contents was downloaded. 
-This gives titles and authorship information for every paper.
-
-Filtered for editorials, corrections, errata, book reviews, ...
-
-====*
-
-## Limitations
-
-Why not examine the _abstracts_, or the _articles_ themselves?
-
-+ Legal issues (c.f. [Aaron Swartz](http://en.wikipedia.org/wiki/United_States_v._Aaron_Swartz))
-+ Time/complexity issues
-+ Publicly available data
 
 
-====
-
-## Consortia
-
-LARGE project collaborations
-
-Removed from study
-
-Examples:
-
-Genome (link)
-Mars Rover (link)
-Etc (link)
-
-====* !(img/seq/total1.png 70% fade)
-====* !(img/seq/total2.png 70% fade)
-====* !(img/seq/total3.png 70% fade)
-====* !(img/seq/total4.png 70% fade)
-====* !(img/seq/total5.png 70% fade)
-
-====*
-## Extrapolate?
-!(img/ProjectionTable.png)
-
-====*
-## Correlated to growth?
-!(img/growth_plots.png) <<height:600px>>
-
-====*
-
-## Single Authorship
-
-_a prori_ not the same trend as mean authorship...
-
-====* !(img/seq/single1.png 70% fade)
-====* !(img/seq/single2.png 70% fade)
-
-====
-## Lexicographical analysis
-
-Look for _significant_ keywords in the titles
-
-+ Remove *stop words*:
-
-e.g. [the,first,has]
-
-+ Apply *stemming*, *lemmatization*:
-
-(acids, acidic) $\rightarrow$ acid
-
-Identify a canonical representative set for related words
-
-====*
-
-NATURE 1935
-    spectrum        4.24
-    structure       3.15
-    neutron         3.01
-    radioactivity   2.74
-
-NATURE 1951
-    acid            7.32
-    chromatography  2.76
-    structure       2.68
-    cell            2.20
-
-NATURE 2013
-    cell            12.59
-    structure       5.87
-    protein         5.13
-    human           5.01
-
-====
-
-## Title length
-
-Longest title:
-
-Shortest title:
-
-
-====*
-
-## Verbosity Saturates
-
-====* !(img/seq/title1.png 70% fade)
-====* !(img/seq/title2.png 70% fade)
-====* !(img/seq/title3.png 70% fade)
-
-====
 # Reasons?
 
 + More money == More science?

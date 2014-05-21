@@ -98,12 +98,11 @@ Genome (link)
 Mars Rover (link)
 Etc (link)
 
-
-====* !(img/seq/total1.png 70% none)
-====* !(img/seq/total2.png 70% none)
-====* !(img/seq/total3.png 70% none)
-====* !(img/seq/total4.png 70% none)
-====* !(img/seq/total5.png 70% none)
+====* !(img/seq/total1.png 70% fade)
+====* !(img/seq/total2.png 70% fade)
+====* !(img/seq/total3.png 70% fade)
+====* !(img/seq/total4.png 70% fade)
+====* !(img/seq/total5.png 70% fade)
 
 ====*
 ## Extrapolate?
@@ -116,7 +115,11 @@ Etc (link)
 ====*
 
 ## Single Authorship
-!(img/single_author.png) <<height:600px>>
+
+_a prori_ not the same trend as mean authorship...
+
+====* !(img/seq/single1.png 70% fade)
+====* !(img/seq/single2.png 70% fade)
 
 ====
 ## Lexicographical analysis

@@ -40,13 +40,11 @@
 <link rel="stylesheet" href="reveal.js/css/theme/beige.css" id="theme">
 <br>
 <p>
-<h1>Rise of</h1><h1>the Coauthor</h1></p>
+<h1>Rise of</h1><h1>the Coauthor</h1><div class="footnote"><em>(a very meta journal-club)</em></div></p>
+<br>
 <br>
 <p>
-<strong><a href="http://thoppe.github.io/">Travis Hoppe</a></strong>, Dan Appella</p>
-<br>
-<p>
-<a href="https://github.com/thoppe/Rise-of-the-Coauthor">(deck source)</a></p>
+<strong><a href="http://thoppe.github.io/">Travis Hoppe</a></strong>, Dan Appella<br><a href="https://github.com/thoppe/Rise-of-the-Coauthor">(deck source)</a></p>
 </section><section class="vertical-slide"  data-background-transition="none">
 <p>
 Motivation:<br>Author count histogram for a single issue of JBC</p>
@@ -71,10 +69,10 @@ and other interesting facts from the front-end of a journal.</p>
 <strong>JCI</strong> (J. Clinical Investigations), <strong>PNAS</strong> (Proc. National Academy of Sciences), <strong>JACS</strong> (J. American Chemical Society), <strong>JBC</strong> (J .Biological Chemistry), <strong>Science</strong>, <strong>Nature</strong>, <strong>Cell</strong>.</p>
 <br>
 <p>
-For every journal, every table of contents was downloaded.<br>This gives titles and authorship information for every paper.</p>
+For each journal, every table of contents was downloaded.<br>This gives titles and authorship information for every paper.</p>
 <br>
 <p>
-Filtered for editorials, corrections, errata, book reviews, ...<br>Approximately 2.4K TOC, 100K papers for older journals.</p>
+Filtered for editorials, corrections, errata, book reviews, ...<br>Approximately 2.4K TOC, 655K papers for older journals.</p>
 </section><section class="vertical-slide"  data-background-transition="none">
 <p>
 <h2>Limitations</h2></p>
@@ -108,6 +106,14 @@ Examples:</p>
 <br>
 <p>
 Genome (link)<br>Mars Rover (link)<br>Etc (link)</p>
+</section>
+</section><section class="vertical-stack">
+<section class="vertical-slide"  data-background-transition="none">
+<p>
+<h1>Authorship distribution</h1></p>
+<br>
+<p>
+In most cases the <em>distribution</em> of authorship follows a Poisson,<br>hence the mean is approximately the variance.</p>
 </section><section class="vertical-slide"  data-background="img/seq/total1.png" data-background-transition="fade" data-background-size="70%">
 <br>
 </section><section class="vertical-slide"  data-background="img/seq/total2.png" data-background-transition="fade" data-background-size="70%">
@@ -120,12 +126,24 @@ Genome (link)<br>Mars Rover (link)<br>Etc (link)</p>
 <br>
 </section><section class="vertical-slide"  data-background-transition="fade" data-background-size="70%">
 <p>
-<h2>Extrapolate?</h2></p>
+<h2>Extrapolate?</h2>Assume linear trend from last 15 years</p>
+<br>
 <img class="" src="img/ProjectionTable.png" >
-</section><section class="vertical-slide"  data-background-transition="fade" data-background-size="70%">
+</section>
+</section><section class="vertical-stack">
+<section class="vertical-slide"  data-background-transition="fade" data-background-size="70%">
 <p>
 <h2>Correlated to growth?</h2></p>
-<img class="" src="img/growth_plots.png" height="600px">
+<br>
+<p>
+<h3>Bibliographics, Thomson-Reuters</h3></p>
+<br>
+<ul><li>Impact factor </li>
+<li>Article influence</li>
+<li>Eigenfactor (similar to Google's page-rank)</li>
+<li>Total citations</li></ul>
+</section><section class="vertical-slide"  data-background="img/growth_plots.png" data-background-transition="fade" data-background-size="70%">
+<br>
 </section><section class="vertical-slide"  data-background-transition="fade" data-background-size="70%">
 <p>
 <h2>Single Authorship</h2></p>
@@ -220,20 +238,17 @@ NIH budgets, PDB submissions, number of postdoctoral/doctoral students, number o
 </section><section class="vertical-slide"  data-background-transition="fade" data-background-size="70%">
 <p>
 <h2>NIH Funding</h2></p>
-<br>
-<img class="" src="img/NIH_funding1.png" height="280px">
-<img class="" src="img/NIH_funding2.png" height="280px">
+<img class="" src="img/NIH_funding1.png" height="450px">
 <br>
 <p>
 <a href="http://www.americanprogress.org/issues/economy/report/2014/03/25/86369/erosion-of-funding-for-the-national-institutes-of-health-threatens-u-s-leadership-in-biomedical-research/">Source: (CAP) Erosion of Funding for the NIH ...</a></p>
 </section><section class="vertical-slide"  data-background-transition="fade" data-background-size="70%">
 <p>
-<h2>Growth of Data</h2>Submissions to PDB</p>
-<br>
-<img class="" src="img/EM_pdb.jpg" height="250px">
-<img class="" src="img/NMR_pdb.jpg" height="250px">
-<p>
-<a href="http://www.nature.com/nsmb/journal/v19/n12/full/nsmb.2426.html?WT.ec_id=NSMB-201212">Electron Microscopy</a>, <a href="http://www.wwpdb.org/news/news_2013.html">NMR</a></p>
+<h3>Growth of Data</h3></p>
+<a href=www.nlm.nih.gov/about/2015CJ.html><img class="" src="img/NCBI_usage.png" height="250px"></a>
+<a href=en.wikipedia.org/wiki/Moore's_law><img class="" src="img/Hard_drive_capacity_over_time.png" height="250px"></a>
+<a href=arxiv.org/help/stats/2013_by_area/index><img class="" src="img/arvix-subs.png" height="250px"></a>
+<a href=blog.wellcome.ac.uk/2014/05/14/protein-data-bank-releases-100000th-structure/><img class="" src="img/pdb-all-growth.png" height="250px"></a>
 </section><section class="vertical-slide"  data-background-transition="fade" data-background-size="70%">
 <p>
 <h2>Growth of Temporaries</h2></p>

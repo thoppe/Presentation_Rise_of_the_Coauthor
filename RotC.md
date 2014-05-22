@@ -8,7 +8,7 @@
 *[Travis Hoppe](http://thoppe.github.io/)*, Dan Appella
 [(deck source)](https://github.com/thoppe/Rise-of-the-Coauthor)
 
-====*
+====
 
 Motivation:
 Author count histogram for a single issue of JBC
@@ -34,7 +34,7 @@ For each journal, every table of contents was downloaded.
 This gives titles and authorship information for every paper.
 
 Filtered for editorials, corrections, errata, book reviews, ...
-Approximately 2.4K TOC, 655K papers for older journals.
+Approximately 2.4K TOC and 655K papers.
 
 ====*
 
@@ -60,15 +60,13 @@ Why not examine the _abstracts_, or the _articles_ themselves?
 
 ## Consortia
 
-LARGE project collaborations
+LARGE project collaborations, removed from study. Ex.
 
-Removed from study
+[Finishing the euchromatic sequence of the human genome](http://www.nature.com/nature/journal/v431/n7011/full/nature03001.html)
 
-Examples:
+[A Particle Consistent with the Higgs Boson Observed with the ATLAS Detector at the Large Hadron Collider](http://www.sciencemag.org/content/278/5344/1765.full)
 
-Genome (link)
-Mars Rover (link)
-Etc (link)
+[Characterization of the Martian Surface Deposits by the Mars Pathfinder Rover, Sojourner](http://www.sciencemag.org/content/278/5344/1765.full)
 
 ====
 
@@ -147,14 +145,19 @@ NATURE 2013
     protein         5.13
     human           5.01
 
+====* !(img/JBC_absolute_word_popularity_stack.png 80% slide)
+====* !(img/NATURE_scaled_coauthor_average.png 80% slide)
 ====
-
 ## Title length
+Number of significant words in the title, some are quite verbose.
 
-Longest title:
-
-Shortest title:
-
+====+
+<div class="footnote">
+[.alpha.- and .beta.-Carboxylic groups as primary ligating groups in promoting amide deprotonation. Solid-state behavior of N-tosylalaninate-copper(II) complexes: crystal and molecular structures of bis(N-tosyl-.beta.-alaninato) bis(imidazole)copper(II), polymeric (N-tosyl-.alpha.-alaninato) diaquacopper(II) monohydrate, and dipiperidinium bis(N-tosyl-.alpha.-alaninato) cuprate(II) monohydrate complexes](http://pubs.acs.org/doi/abs/10.1021/ja00291a043)
+</div>
+====+
+<div class="footnote">[Prospective study of cytotoxic T lymphocyte responses to influenza and antibodies to human T lymphotropic virus-III in homosexual men. Selective loss of an influenza-specific, human leukocyte antigen-restricted cytotoxic T lymphocyte response in human T lymphotropic virus-III positive individuals with symptoms of acquired immunodeficiency syndrome and in a patient with acquired immunodeficiency syndrome](http://www.ncbi.nlm.nih.gov/pubmed/2997287)
+</div>
 
 ====*
 
@@ -172,48 +175,41 @@ Shortest title:
 <br>
 # _YES!_
 
-NIH budgets, PDB submissions,  number of postdoctoral/doctoral students, number of international collaborations, ...
+Some metrics: science budgets, big data, nationalities of postdoctoral students, number of international collaborations, ...
 
 ====*
 ## NIH Funding
-!(img/NIH_funding1.png) <<height:450px>>
-
-[Source: (CAP) Erosion of Funding for the NIH ...](http://www.americanprogress.org/issues/economy/report/2014/03/25/86369/erosion-of-funding-for-the-national-institutes-of-health-threatens-u-s-leadership-in-biomedical-research/)
+!(img/NIH_funding1.png)[(http://www.americanprogress.org/issues/economy/report/2014/03/25/86369/erosion-of-funding-for-the-national-institutes-of-health-threatens-u-s-leadership-in-biomedical-research/] <<height:500px>>
  
 ====*
 ### Growth of Data
-!(img/NCBI_usage.png)[www.nlm.nih.gov/about/2015CJ.html] <<height:250px>>
-!(img/Hard_drive_capacity_over_time.png)[en.wikipedia.org/wiki/Moore's_law] <<height:250px>>
-!(img/arvix-subs.png)[arxiv.org/help/stats/2013_by_area/index] <<height:250px>>
-!(img/pdb-all-growth.png)[blog.wellcome.ac.uk/2014/05/14/protein-data-bank-releases-100000th-structure/] <<height:250px>>
+!(img/NCBI_usage.png)[http://www.nlm.nih.gov/about/2015CJ.html] <<height:250px>>
+!(img/Hard_drive_capacity_over_time.png)[http://en.wikipedia.org/wiki/Moore's_law] <<height:250px>>
+!(img/arvix-subs.png)[http://arxiv.org/help/stats/2013_by_area/index] <<height:250px>>
+!(img/pdb-all-growth.png)[http://blog.wellcome.ac.uk/2014/05/14/protein-data-bank-releases-100000th-structure/] <<height:250px>>
 
 ====*
 
-## Growth of Temporaries
-!(img/postdoc_growth.jpg)  <<height:400px>>
-
-[Source: (NIH) Office of Extramural Research](http://www.americanprogress.org/issues/economy/report/2014/03/25/86369/erosion-of-funding-for-the-national-institutes-of-health-threatens-u-s-leadership-in-biomedical-research)
-
-
-====*
-
-## International groups
-!(img/international_trend.gif) <<height:600px>>
+## International growth
+!(img/non_us_postdocs.jpg)[http://nsf.gov]  <<height:500px>>
+!(img/international_trend.gif) <<height:500px>>
 
 ====
 
+# Authorship Growth
+### Can it continue unabated?
 
-
-# Reasons?
-
-+ More money == More science?
-+ New science requires international collaborations, e.g. all the low hanging fruit is gone
-+ White bull effect?
++ More money $\rightarrow$ larger science?
++ Grants favor international collaborations?
++ [White bull](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1734216/) effect?
 + Diluted second authors?
+
 
 Is this a bad thing? What is lost?
 
+====
 
+# Thanks, you.
 
 
 

@@ -83,7 +83,7 @@ the mean is approximately the variance.
 
 ====*
 ## Extrapolate?
-Assume linear trend from last 15 years
+Assume a linear trend from last 15 years
 
 !(img/ProjectionTable.png)
 

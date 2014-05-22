@@ -30,8 +30,8 @@ and other interesting facts from the front-end of a journal.
 
 *JCI* (J. Clinical Investigations), *PNAS* (Proc. National Academy of Sciences), *JACS* (J. American Chemical Society), *JBC* (J .Biological Chemistry), *Science*, *Nature*, *Cell*.
 
-For each journal, every table of contents was downloaded.
-This gives titles and authorship information for every paper.
+For each journal, every table of contents was downloaded, 
+this gave title and authorship information for each paper.
 
 Filtered for editorials, corrections, errata, book reviews, ...
 Approximately 2.4K TOC and 655K papers.
@@ -60,7 +60,7 @@ Why not examine the _abstracts_, or the _articles_ themselves?
 
 ## Consortia
 
-LARGE project collaborations, removed from study. Ex.
+LARGE project collaborations, removed from study.
 
 [Finishing the euchromatic sequence of the human genome](http://www.nature.com/nature/journal/v431/n7011/full/nature03001.html)
 
@@ -72,8 +72,8 @@ LARGE project collaborations, removed from study. Ex.
 
 # Authorship distribution
 
-In most cases the _distribution_ of authorship follows a Poisson,
-hence the mean is approximately the variance.
+In most cases the _distribution_ of authorship follows a Poisson;
+the mean is approximately the variance.
 
 ====* !(img/seq/total1.png 70% fade)
 ====* !(img/seq/total2.png 70% fade)
@@ -90,14 +90,13 @@ Assume linear trend from last 15 years
 ====
 
 ## Correlated to growth?
+### Bibliographics via Thomson-Reuters
 
-### Bibliographics, Thomson-Reuters
+[Common metrics](http://libguides.jcu.edu.au/content.php?pid=276452&sid=2587740) for scientific impact:
 
-+ Impact factor 
-+ Article influence
-+ Eigenfactor (similar to Google's page-rank)
-+ Total citations
-
+Total citations
+Impact factor / Article influence
+Eigenfactor (similar to Google's page-rank)
 
 ====*
 !(img/growth_plots.png)
@@ -197,7 +196,7 @@ Some metrics: science budgets, big data, nationalities of postdoctoral students,
 ====
 
 # Authorship Growth
-### Can it continue unabated?
+### Can it continue unabated? Discuss!
 
 + More money $\rightarrow$ larger science?
 + Grants favor international collaborations?
@@ -205,7 +204,7 @@ Some metrics: science budgets, big data, nationalities of postdoctoral students,
 + Diluted second authors?
 
 
-Is this a bad thing? What is lost?
++ Is this a bad thing? What is lost?
 
 ====
 

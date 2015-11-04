@@ -1,12 +1,10 @@
-{"theme":"beige.css"}
-
 # Rise of
 # the Coauthor
 <div class="footnote">_(a very meta journal-club)_</div>
 
 
-*[Travis Hoppe](http://thoppe.github.io/)*, Dan Appella
-[(deck source)](https://github.com/thoppe/Rise-of-the-Coauthor)
+*[Travis Hoppe](http://thoppe.github.io/)* & Dan Appella
+<div class="footnote">[github.com/thoppe/Rise-of-the-Coauthor](https://github.com/thoppe/Rise-of-the-Coauthor)</div>
 
 ====
 
